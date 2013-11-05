@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AsposeUse.exe" version="1.0.0.1" publicKeyToken="745ef617c8de738c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AsposeUse" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AsposeUse.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 資訊清單選項
+          如果您要變更 Windows 使用者帳戶控制層級，請將 
+          requestedExecutionLevel 節點取代為下列其中一項。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         如果您要利用檔案及登錄模擬，
+         以便提供回溯相容性，則請刪除 requestedExecutionLevel 節點。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Aspose.Cells.dll" size="2326528">
+      <assemblyIdentity name="Aspose.Cells" version="4.3.0.0" publicKeyToken="9A40D5A4B59E5256" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6ENFczb2b/E0W68hxUIQO8tz/O6080OAWCuuKHcVqzg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Aspose.Words.dll" size="2350208">
+      <assemblyIdentity name="Aspose.Words" version="4.4.0.0" publicKeyToken="716FCC553A201E56" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>P+E3H0rFS2Tnaq8nJ0LstSM5DyE9jfwrxzf5nsauwl8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AsposeUse.exe" size="40960">
+      <assemblyIdentity name="AsposeUse" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WCmjeAeZSpkhvEuKP/HMgcepAyoU/8PGKi69bgw/+Vg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AsposeUse.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CloudS3\Cloud" issuerKeyHash="32aff5fa62b1dc85bce5286c1675aafcb4ec98e6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fzT2kJlIfZY8KccrxaTFsbGdFJYs4frRbtdegvi9fp4=</DigestValue></Reference></SignedInfo><SignatureValue>OTw6ew6KG2o8TKe1AlO2ep00K8meEvct3/1OozEHGXf5yvpRxcFJyUuVvukdn5ov7oof5lTIdKBbCwP63Mib9Lm68DJKeG5PIcvh88iMHpde+qPTGJjf/+jHElQPIV+MxjPLD5wRd9B/rv5V4lVbn2+RsJ7LPVydjGBDnJCwAWE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qXtPA+e7qPkfeLt1+/Slrm5lV+A0ccxgYEjIhwXtBnIb7t7h0IJlqNGYj3fLp2kOWFnUXlriITXPbu84/PGMrV8gAfWl7jlLkHZGV3t/+4NgVzayxU7U8AJ289biXqMIN9I6UygC1CUUQo7KGHyd1M8KoPEIW/dqKJ+FC6VzsgE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9e7ebdf8825ed76ed1fae12c96149db1b1c5a4c52bc7293c967d489990f6347f" Description="" Url=""><as:assemblyIdentity name="AsposeUse.exe" version="1.0.0.1" publicKeyToken="745ef617c8de738c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CloudS3\Cloud</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>O8EKrRpFrMOS8BiijVCQKcjTB86uwprtcPWjQI/jWQY=</DigestValue></Reference></SignedInfo><SignatureValue>ljnmGeE3LxhDgbnwR7ffob0h9iPafHCeQf3FSIrzCclTPEtFrzNEFa0g1TopXryDxtkeZHR2UsNmlqFRTO8ncfQ+C9qHfO15L3GluQby80qPTKNRIJGFZXfIQGq0L7pNW1cc9X+07enVSlVlfqEMRvYDBT0fuANUJP658VaeHB8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qXtPA+e7qPkfeLt1+/Slrm5lV+A0ccxgYEjIhwXtBnIb7t7h0IJlqNGYj3fLp2kOWFnUXlriITXPbu84/PGMrV8gAfWl7jlLkHZGV3t/+4NgVzayxU7U8AJ289biXqMIN9I6UygC1CUUQo7KGHyd1M8KoPEIW/dqKJ+FC6VzsgE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQbvSAgs2bQ4dAhtooTb2mazANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAQwBsAG8AdQBkAFMAMwBcAEMAbABvAHUAZDAeFw0xMzExMDQwOTA2NTRaFw0xNDExMDQxNTA2NTRaMCUxIzAhBgNVBAMeGgBDAGwAbwB1AGQAUwAzAFwAQwBsAG8AdQBkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpe08D57uo+R94u3X79KWubmVX4DRxzGBgSMiHBe0Gchvu3uHQgmWo0ZiPd8unaQ5YWdReWuIhNc9u7zj88YytXyAB9aXuOUuQdkZXe3/7g2BXNrLFTtTwAnbz1uJeowg30jpTKALUJRRCjsoYfJ3Uzwqg8Qhb92oon4ULpXOyAQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABX7B28saOZAHlf+y+kfCpsECqOb/u7KPus57+uo5HWvyijkLGMMOtO5QXeOoauf6pE939gOOf9WFEarVASMPJKFgtmnpUHSvn+wiSFqEhHYzabpNIAKI51Jlbd4cbmOtR1kki9Cb4roPAdmhJkoIQIO8Z6WYN1zNeFOvcFS1xML</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
